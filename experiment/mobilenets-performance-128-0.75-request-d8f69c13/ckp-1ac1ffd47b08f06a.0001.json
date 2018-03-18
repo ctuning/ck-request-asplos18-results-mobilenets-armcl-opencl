@@ -1,0 +1,2240 @@
+{
+  "characteristics_list": [
+    {
+      "compile": {
+        "binary_size": 373560, 
+        "compilation_success": "yes", 
+        "compilation_success_bool": true, 
+        "compilation_time": 34.746554136276245, 
+        "compilation_time_with_module": 36.22090005874634, 
+        "joined_compiler_flags": "-O3", 
+        "md5_sum": "e22b3fa1edf4ae35b2e332d5f6fc9629", 
+        "obj_size": 895952, 
+        "obj_sizes": {
+          "GraphUtils.o": 420128, 
+          "Utils.o": 317080, 
+          "benchmark.o": 57120, 
+          "mobilenets.o": 101624
+        }, 
+        "program_git_hash": "edee7cb753d3a289ab271fc278d52fcc42bbaccf"
+      }, 
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.028758, 
+        "execution_time_sum": 2.1513699999999996, 
+        "execution_time_with_module": 3.0816879272460938, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.010156, 
+        "images_load_time_s": 0.010156, 
+        "prediction_time_avg_s": 0.028758, 
+        "prediction_time_total_s": 0.028758, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 2.112456, 
+        "test_time_s ": 0.045126, 
+        "total_execution_time": 0.028758
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.033343, 
+        "execution_time_sum": 1.9164089999999998, 
+        "execution_time_with_module": 2.7666637897491455, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003323, 
+        "images_load_time_s": 0.003323, 
+        "prediction_time_avg_s": 0.033343, 
+        "prediction_time_total_s": 0.033343, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.879743, 
+        "test_time_s ": 0.043939, 
+        "total_execution_time": 0.033343
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.083046, 
+        "execution_time_sum": 1.9458199999999999, 
+        "execution_time_with_module": 2.896528959274292, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003288, 
+        "images_load_time_s": 0.003288, 
+        "prediction_time_avg_s": 0.083046, 
+        "prediction_time_total_s": 0.083046, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.859486, 
+        "test_time_s ": 0.092968, 
+        "total_execution_time": 0.083046
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.037959, 
+        "execution_time_sum": 1.898157, 
+        "execution_time_with_module": 2.8071861267089844, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003507, 
+        "images_load_time_s": 0.003507, 
+        "prediction_time_avg_s": 0.037959, 
+        "prediction_time_total_s": 0.037959, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.856691, 
+        "test_time_s ": 0.048705, 
+        "total_execution_time": 0.037959
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.074168, 
+        "execution_time_sum": 1.9521600000000001, 
+        "execution_time_with_module": 2.802793025970459, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003397, 
+        "images_load_time_s": 0.003397, 
+        "prediction_time_avg_s": 0.074168, 
+        "prediction_time_total_s": 0.074168, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.874595, 
+        "test_time_s ": 0.082967, 
+        "total_execution_time": 0.074168
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.036736, 
+        "execution_time_sum": 1.9058650000000001, 
+        "execution_time_with_module": 2.895941972732544, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003258, 
+        "images_load_time_s": 0.003258, 
+        "prediction_time_avg_s": 0.036736, 
+        "prediction_time_total_s": 0.036736, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.865871, 
+        "test_time_s ": 0.047304, 
+        "total_execution_time": 0.036736
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030461, 
+        "execution_time_sum": 1.9103860000000001, 
+        "execution_time_with_module": 2.779355049133301, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003214, 
+        "images_load_time_s": 0.003214, 
+        "prediction_time_avg_s": 0.030461, 
+        "prediction_time_total_s": 0.030461, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.876711, 
+        "test_time_s ": 0.040191, 
+        "total_execution_time": 0.030461
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.07291, 
+        "execution_time_sum": 1.9517980000000001, 
+        "execution_time_with_module": 2.9124419689178467, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003249, 
+        "images_load_time_s": 0.003249, 
+        "prediction_time_avg_s": 0.07291, 
+        "prediction_time_total_s": 0.07291, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.875639, 
+        "test_time_s ": 0.084207, 
+        "total_execution_time": 0.07291
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030593, 
+        "execution_time_sum": 1.9985169999999999, 
+        "execution_time_with_module": 2.9954230785369873, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003224, 
+        "images_load_time_s": 0.003224, 
+        "prediction_time_avg_s": 0.030593, 
+        "prediction_time_total_s": 0.030593, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.9647, 
+        "test_time_s ": 0.039944, 
+        "total_execution_time": 0.030593
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030937, 
+        "execution_time_sum": 1.907755, 
+        "execution_time_with_module": 2.772601842880249, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003298, 
+        "images_load_time_s": 0.003298, 
+        "prediction_time_avg_s": 0.030937, 
+        "prediction_time_total_s": 0.030937, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.87352, 
+        "test_time_s ": 0.043031, 
+        "total_execution_time": 0.030937
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.089177, 
+        "execution_time_sum": 1.953381, 
+        "execution_time_with_module": 2.7832260131835938, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003286, 
+        "images_load_time_s": 0.003286, 
+        "prediction_time_avg_s": 0.089177, 
+        "prediction_time_total_s": 0.089177, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.860918, 
+        "test_time_s ": 0.099894, 
+        "total_execution_time": 0.089177
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.04642, 
+        "execution_time_sum": 1.915615, 
+        "execution_time_with_module": 2.8946900367736816, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003254, 
+        "images_load_time_s": 0.003254, 
+        "prediction_time_avg_s": 0.04642, 
+        "prediction_time_total_s": 0.04642, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.865941, 
+        "test_time_s ": 0.056988, 
+        "total_execution_time": 0.04642
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.036406, 
+        "execution_time_sum": 1.902192, 
+        "execution_time_with_module": 2.7951319217681885, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003254, 
+        "images_load_time_s": 0.003254, 
+        "prediction_time_avg_s": 0.036406, 
+        "prediction_time_total_s": 0.036406, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.862532, 
+        "test_time_s ": 0.05607, 
+        "total_execution_time": 0.036406
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.100605, 
+        "execution_time_sum": 1.974895, 
+        "execution_time_with_module": 2.9034268856048584, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003261, 
+        "images_load_time_s": 0.003261, 
+        "prediction_time_avg_s": 0.100605, 
+        "prediction_time_total_s": 0.100605, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.871029, 
+        "test_time_s ": 0.110918, 
+        "total_execution_time": 0.100605
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.031385, 
+        "execution_time_sum": 1.886601, 
+        "execution_time_with_module": 2.8962721824645996, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003299, 
+        "images_load_time_s": 0.003299, 
+        "prediction_time_avg_s": 0.031385, 
+        "prediction_time_total_s": 0.031385, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.851917, 
+        "test_time_s ": 0.042372, 
+        "total_execution_time": 0.031385
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.032541, 
+        "execution_time_sum": 1.91021, 
+        "execution_time_with_module": 2.8783369064331055, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003252, 
+        "images_load_time_s": 0.003252, 
+        "prediction_time_avg_s": 0.032541, 
+        "prediction_time_total_s": 0.032541, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.874417, 
+        "test_time_s ": 0.043082, 
+        "total_execution_time": 0.032541
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.091397, 
+        "execution_time_sum": 1.963985, 
+        "execution_time_with_module": 2.7790141105651855, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003308, 
+        "images_load_time_s": 0.003308, 
+        "prediction_time_avg_s": 0.091397, 
+        "prediction_time_total_s": 0.091397, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.86928, 
+        "test_time_s ": 0.103563, 
+        "total_execution_time": 0.091397
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.036615, 
+        "execution_time_sum": 1.9098730000000002, 
+        "execution_time_with_module": 2.8709158897399902, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003308, 
+        "images_load_time_s": 0.003308, 
+        "prediction_time_avg_s": 0.036615, 
+        "prediction_time_total_s": 0.036615, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.86995, 
+        "test_time_s ": 0.04726, 
+        "total_execution_time": 0.036615
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.076273, 
+        "execution_time_sum": 1.938608, 
+        "execution_time_with_module": 2.889739990234375, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003295, 
+        "images_load_time_s": 0.003295, 
+        "prediction_time_avg_s": 0.076273, 
+        "prediction_time_total_s": 0.076273, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.85904, 
+        "test_time_s ": 0.08542, 
+        "total_execution_time": 0.076273
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.031828, 
+        "execution_time_sum": 1.917289, 
+        "execution_time_with_module": 2.776350975036621, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.00326, 
+        "images_load_time_s": 0.00326, 
+        "prediction_time_avg_s": 0.031828, 
+        "prediction_time_total_s": 0.031828, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.882201, 
+        "test_time_s ": 0.041752, 
+        "total_execution_time": 0.031828
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030441, 
+        "execution_time_sum": 1.905807, 
+        "execution_time_with_module": 2.7909739017486572, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.0033, 
+        "images_load_time_s": 0.0033, 
+        "prediction_time_avg_s": 0.030441, 
+        "prediction_time_total_s": 0.030441, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.872066, 
+        "test_time_s ": 0.040774, 
+        "total_execution_time": 0.030441
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.08533, 
+        "execution_time_sum": 1.959536, 
+        "execution_time_with_module": 2.8687729835510254, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003677, 
+        "images_load_time_s": 0.003677, 
+        "prediction_time_avg_s": 0.08533, 
+        "prediction_time_total_s": 0.08533, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.870529, 
+        "test_time_s ": 0.09635, 
+        "total_execution_time": 0.08533
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.03492, 
+        "execution_time_sum": 1.969226, 
+        "execution_time_with_module": 2.876286029815674, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003256, 
+        "images_load_time_s": 0.003256, 
+        "prediction_time_avg_s": 0.03492, 
+        "prediction_time_total_s": 0.03492, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.93105, 
+        "test_time_s ": 0.045888, 
+        "total_execution_time": 0.03492
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.032599, 
+        "execution_time_sum": 1.8953570000000002, 
+        "execution_time_with_module": 2.876791000366211, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003381, 
+        "images_load_time_s": 0.003381, 
+        "prediction_time_avg_s": 0.032599, 
+        "prediction_time_total_s": 0.032599, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.859377, 
+        "test_time_s ": 0.042089, 
+        "total_execution_time": 0.032599
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.073131, 
+        "execution_time_sum": 1.945379, 
+        "execution_time_with_module": 2.7833199501037598, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003277, 
+        "images_load_time_s": 0.003277, 
+        "prediction_time_avg_s": 0.073131, 
+        "prediction_time_total_s": 0.073131, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.868971, 
+        "test_time_s ": 0.082945, 
+        "total_execution_time": 0.073131
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.033539, 
+        "execution_time_sum": 1.994895, 
+        "execution_time_with_module": 2.8847908973693848, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003489, 
+        "images_load_time_s": 0.003489, 
+        "prediction_time_avg_s": 0.033539, 
+        "prediction_time_total_s": 0.033539, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.957867, 
+        "test_time_s ": 0.043841, 
+        "total_execution_time": 0.033539
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.028302, 
+        "execution_time_sum": 1.8942800000000002, 
+        "execution_time_with_module": 2.8856770992279053, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.00326, 
+        "images_load_time_s": 0.00326, 
+        "prediction_time_avg_s": 0.028302, 
+        "prediction_time_total_s": 0.028302, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.862718, 
+        "test_time_s ": 0.037967, 
+        "total_execution_time": 0.028302
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.082036, 
+        "execution_time_sum": 1.970433, 
+        "execution_time_with_module": 2.985434055328369, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003317, 
+        "images_load_time_s": 0.003317, 
+        "prediction_time_avg_s": 0.082036, 
+        "prediction_time_total_s": 0.082036, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.88508, 
+        "test_time_s ": 0.093331, 
+        "total_execution_time": 0.082036
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.032038, 
+        "execution_time_sum": 1.9302320000000002, 
+        "execution_time_with_module": 2.8728771209716797, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003273, 
+        "images_load_time_s": 0.003273, 
+        "prediction_time_avg_s": 0.032038, 
+        "prediction_time_total_s": 0.032038, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.894921, 
+        "test_time_s ": 0.042172, 
+        "total_execution_time": 0.032038
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030896, 
+        "execution_time_sum": 1.894732, 
+        "execution_time_with_module": 4.208833932876587, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003225, 
+        "images_load_time_s": 0.003225, 
+        "prediction_time_avg_s": 0.030896, 
+        "prediction_time_total_s": 0.030896, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.860611, 
+        "test_time_s ": 0.040788, 
+        "total_execution_time": 0.030896
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.083245, 
+        "execution_time_sum": 1.93834, 
+        "execution_time_with_module": 2.8732848167419434, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003293, 
+        "images_load_time_s": 0.003293, 
+        "prediction_time_avg_s": 0.083245, 
+        "prediction_time_total_s": 0.083245, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.851802, 
+        "test_time_s ": 0.093901, 
+        "total_execution_time": 0.083245
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.036148, 
+        "execution_time_sum": 1.9331580000000002, 
+        "execution_time_with_module": 2.8697829246520996, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003252, 
+        "images_load_time_s": 0.003252, 
+        "prediction_time_avg_s": 0.036148, 
+        "prediction_time_total_s": 0.036148, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.893758, 
+        "test_time_s ": 0.046222, 
+        "total_execution_time": 0.036148
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.035492, 
+        "execution_time_sum": 1.9199110000000001, 
+        "execution_time_with_module": 2.7878239154815674, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003517, 
+        "images_load_time_s": 0.003517, 
+        "prediction_time_avg_s": 0.035492, 
+        "prediction_time_total_s": 0.035492, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.880902, 
+        "test_time_s ": 0.058039, 
+        "total_execution_time": 0.035492
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.07493, 
+        "execution_time_sum": 2.002338, 
+        "execution_time_with_module": 2.985822916030884, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003247, 
+        "images_load_time_s": 0.003247, 
+        "prediction_time_avg_s": 0.07493, 
+        "prediction_time_total_s": 0.07493, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.924161, 
+        "test_time_s ": 0.085585, 
+        "total_execution_time": 0.07493
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.035955, 
+        "execution_time_sum": 1.9147089999999998, 
+        "execution_time_with_module": 2.803041934967041, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003518, 
+        "images_load_time_s": 0.003518, 
+        "prediction_time_avg_s": 0.035955, 
+        "prediction_time_total_s": 0.035955, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.875236, 
+        "test_time_s ": 0.057613, 
+        "total_execution_time": 0.035955
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.04319, 
+        "execution_time_sum": 1.8981360000000003, 
+        "execution_time_with_module": 2.912592887878418, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003432, 
+        "images_load_time_s": 0.003432, 
+        "prediction_time_avg_s": 0.04319, 
+        "prediction_time_total_s": 0.04319, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.851514, 
+        "test_time_s ": 0.053952, 
+        "total_execution_time": 0.04319
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.093036, 
+        "execution_time_sum": 1.9701899999999999, 
+        "execution_time_with_module": 2.986125946044922, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.00352, 
+        "images_load_time_s": 0.00352, 
+        "prediction_time_avg_s": 0.093036, 
+        "prediction_time_total_s": 0.093036, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.873634, 
+        "test_time_s ": 0.102272, 
+        "total_execution_time": 0.093036
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.037613, 
+        "execution_time_sum": 1.920224, 
+        "execution_time_with_module": 2.781079053878784, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003254, 
+        "images_load_time_s": 0.003254, 
+        "prediction_time_avg_s": 0.037613, 
+        "prediction_time_total_s": 0.037613, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.879357, 
+        "test_time_s ": 0.047604, 
+        "total_execution_time": 0.037613
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030177, 
+        "execution_time_sum": 1.903757, 
+        "execution_time_with_module": 2.882796049118042, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003536, 
+        "images_load_time_s": 0.003536, 
+        "prediction_time_avg_s": 0.030177, 
+        "prediction_time_total_s": 0.030177, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.870044, 
+        "test_time_s ": 0.040582, 
+        "total_execution_time": 0.030177
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.093153, 
+        "execution_time_sum": 1.958694, 
+        "execution_time_with_module": 2.912898063659668, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003264, 
+        "images_load_time_s": 0.003264, 
+        "prediction_time_avg_s": 0.093153, 
+        "prediction_time_total_s": 0.093153, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.862277, 
+        "test_time_s ": 0.10395, 
+        "total_execution_time": 0.093153
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.03459, 
+        "execution_time_sum": 1.914024, 
+        "execution_time_with_module": 2.775649070739746, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003258, 
+        "images_load_time_s": 0.003258, 
+        "prediction_time_avg_s": 0.03459, 
+        "prediction_time_total_s": 0.03459, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.876176, 
+        "test_time_s ": 0.043801, 
+        "total_execution_time": 0.03459
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.034334, 
+        "execution_time_sum": 1.8927760000000002, 
+        "execution_time_with_module": 2.8876030445098877, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003287, 
+        "images_load_time_s": 0.003287, 
+        "prediction_time_avg_s": 0.034334, 
+        "prediction_time_total_s": 0.034334, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.855155, 
+        "test_time_s ": 0.045413, 
+        "total_execution_time": 0.034334
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.089204, 
+        "execution_time_sum": 1.9605350000000001, 
+        "execution_time_with_module": 2.9057371616363525, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003395, 
+        "images_load_time_s": 0.003395, 
+        "prediction_time_avg_s": 0.089204, 
+        "prediction_time_total_s": 0.089204, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.867936, 
+        "test_time_s ": 0.09899, 
+        "total_execution_time": 0.089204
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.050261, 
+        "execution_time_sum": 1.942342, 
+        "execution_time_with_module": 2.8037161827087402, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003348, 
+        "images_load_time_s": 0.003348, 
+        "prediction_time_avg_s": 0.050261, 
+        "prediction_time_total_s": 0.050261, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.888733, 
+        "test_time_s ": 0.060224, 
+        "total_execution_time": 0.050261
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.034688, 
+        "execution_time_sum": 1.925838, 
+        "execution_time_with_module": 2.8778560161590576, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003445, 
+        "images_load_time_s": 0.003445, 
+        "prediction_time_avg_s": 0.034688, 
+        "prediction_time_total_s": 0.034688, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.887705, 
+        "test_time_s ": 0.044936, 
+        "total_execution_time": 0.034688
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.088917, 
+        "execution_time_sum": 1.957102, 
+        "execution_time_with_module": 2.901401996612549, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003319, 
+        "images_load_time_s": 0.003319, 
+        "prediction_time_avg_s": 0.088917, 
+        "prediction_time_total_s": 0.088917, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.864866, 
+        "test_time_s ": 0.099771, 
+        "total_execution_time": 0.088917
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.033533, 
+        "execution_time_sum": 1.896304, 
+        "execution_time_with_module": 2.8898608684539795, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003261, 
+        "images_load_time_s": 0.003261, 
+        "prediction_time_avg_s": 0.033533, 
+        "prediction_time_total_s": 0.033533, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.85951, 
+        "test_time_s ": 0.044675, 
+        "total_execution_time": 0.033533
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.030129, 
+        "execution_time_sum": 1.9132040000000001, 
+        "execution_time_with_module": 2.8891780376434326, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.00325, 
+        "images_load_time_s": 0.00325, 
+        "prediction_time_avg_s": 0.030129, 
+        "prediction_time_total_s": 0.030129, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.879825, 
+        "test_time_s ": 0.039099, 
+        "total_execution_time": 0.030129
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.068588, 
+        "execution_time_sum": 1.934515, 
+        "execution_time_with_module": 2.912294864654541, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003334, 
+        "images_load_time_s": 0.003334, 
+        "prediction_time_avg_s": 0.068588, 
+        "prediction_time_total_s": 0.068588, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.862593, 
+        "test_time_s ": 0.079694, 
+        "total_execution_time": 0.068588
+      }
+    }, 
+    {
+      "run": {
+        "accuracy_top1": 0.0, 
+        "accuracy_top5": 1.0, 
+        "execution_time": 0.033208, 
+        "execution_time_sum": 1.904357, 
+        "execution_time_with_module": 2.8939380645751953, 
+        "frame_predictions": [
+          {
+            "accuracy_top1": "no", 
+            "accuracy_top5": "yes", 
+            "class_correct": 65, 
+            "class_topmost": 33, 
+            "file_name": "ILSVRC2012_val_00000001.JPEG"
+          }
+        ], 
+        "images_load_time_avg_s": 0.003257, 
+        "images_load_time_s": 0.003257, 
+        "prediction_time_avg_s": 0.033208, 
+        "prediction_time_total_s": 0.033208, 
+        "repeat": 1, 
+        "return_code": 0, 
+        "run_success": "yes", 
+        "run_success_bool": true, 
+        "setup_time_s": 1.867892, 
+        "test_time_s ": 0.043201, 
+        "total_execution_time": 0.033208
+      }
+    }
+  ], 
+  "choices": {
+    "cmd_key": "default", 
+    "compile_type": "dynamic", 
+    "compiler_flags": {}, 
+    "compute_device_id": "0", 
+    "compute_platform_id": "0", 
+    "cpu_freq": "max", 
+    "data_uoa": "mobilenets-armcl-opencl", 
+    "dataset_file": "", 
+    "device_id": "", 
+    "energy": "no", 
+    "env": {
+      "CK_BATCHES_DIR": "batches", 
+      "CK_BATCH_COUNT": 1, 
+      "CK_BATCH_LIST": "batches.txt", 
+      "CK_BATCH_SIZE": 1, 
+      "CK_COMPUTE_DEVICE_ID": "0", 
+      "CK_COMPUTE_PLATFORM_ID": "0", 
+      "CK_CONVOLUTION_METHOD_HINT": 0, 
+      "CK_CPU_FREQUENCY": "max", 
+      "CK_ENV_DATASET_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/", 
+      "CK_ENV_MOBILENET_RESOLUTION": 128, 
+      "CK_ENV_MOBILENET_WIDTH_MULTIPLIER": 0.75, 
+      "CK_GPU_FREQUENCY": "max", 
+      "CK_IMG_LIST": "images.txt", 
+      "CK_PREPARE_ALWAYS": "NO", 
+      "CK_RESULTS_DIR": "predictions", 
+      "CK_SKIP_IMAGES": 0
+    }, 
+    "flags": "-O3", 
+    "gpu_freq": "max", 
+    "host_os": "linux-64", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "no_compile": "no", 
+    "no_state_check": "yes", 
+    "repeat": 1, 
+    "skip_calibration": "yes", 
+    "skip_print_timers": "yes", 
+    "target": "", 
+    "target_os": "linux-64", 
+    "target_os_bits": "64"
+  }, 
+  "choices_order": [
+    "##choices#env#CK_BATCH_SIZE", 
+    "##choices#env#CK_CONVOLUTION_METHOD_HINT", 
+    "##choices#env#CK_ENV_MOBILENET_RESOLUTION", 
+    "##choices#env#CK_ENV_MOBILENET_WIDTH_MULTIPLIER"
+  ], 
+  "features": {
+    "compiler_version": {
+      "list": [
+        7, 
+        2, 
+        0
+      ], 
+      "raw": [
+        "gcc-7 (Debian 7.2.0-1) 7.2.0", 
+        "Copyright (C) 2017 Free Software Foundation, Inc.", 
+        "This is free software; see the source for copying conditions.  There is NO", 
+        "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.", 
+        "", 
+        ""
+      ], 
+      "str": "7.2.0"
+    }, 
+    "gpgpu": [
+      {
+        "gpgpu": {
+          "name": "Mali-G71", 
+          "type": "opencl", 
+          "vendor": "ARM"
+        }, 
+        "gpgpu_deps": {
+          "compiler": {
+            "bat": ". /home/anton/CK_REPOS/local/env/f122f4b119de8bd8/env.sh\n", 
+            "build_dir_name": "gcc", 
+            "choices": [
+              "f122f4b119de8bd8"
+            ], 
+            "cus": {
+              "add_only_with_version": "yes", 
+              "add_to_path": "yes", 
+              "build_dir_name": "gcc", 
+              "can_strip_dynamic_lib": "yes", 
+              "check_that_exists": "yes", 
+              "ck_version": 10, 
+              "env_prefix": "CK_ENV_COMPILER_GCC", 
+              "full_path": "/usr/bin/gcc-7", 
+              "languages": [
+                "C", 
+                "CPP"
+              ], 
+              "limit_recursion_dir_search": {
+                "linux": 3, 
+                "win": 4
+              }, 
+              "only_for_target_os_tags": [
+                "mingw", 
+                "windows", 
+                "linux"
+              ], 
+              "retarget": "no", 
+              "search_numeric_ext_on_linux": "yes", 
+              "skip_path": "yes", 
+              "soft_file": {
+                "linux": "gcc", 
+                "win": "gcc.exe"
+              }, 
+              "soft_file_from_host_os": "yes", 
+              "soft_path_example": {
+                "linux": "/usr/bin/gcc", 
+                "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe"
+              }, 
+              "soft_version_cmd": {
+                "linux": "--version > $#filename#$ 2>&1", 
+                "win": " --version > $#filename#$ 2>&1"
+              }, 
+              "tool_postfix": "-7", 
+              "tool_postfix_configured": "yes", 
+              "tool_prefix": "", 
+              "tool_prefix_configured": "yes", 
+              "version": "7.2.0", 
+              "version_split": [
+                7, 
+                2, 
+                0
+              ]
+            }, 
+            "detected_ver": "7.2.0", 
+            "dict": {
+              "customize": {
+                "add_only_with_version": "yes", 
+                "add_to_path": "yes", 
+                "build_dir_name": "gcc", 
+                "can_strip_dynamic_lib": "yes", 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_COMPILER_GCC", 
+                "full_path": "/usr/bin/gcc-7", 
+                "languages": [
+                  "C", 
+                  "CPP"
+                ], 
+                "limit_recursion_dir_search": {
+                  "linux": 3, 
+                  "win": 4
+                }, 
+                "only_for_target_os_tags": [
+                  "mingw", 
+                  "windows", 
+                  "linux"
+                ], 
+                "retarget": "no", 
+                "search_numeric_ext_on_linux": "yes", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "linux": "gcc", 
+                  "win": "gcc.exe"
+                }, 
+                "soft_file_from_host_os": "yes", 
+                "soft_path_example": {
+                  "linux": "/usr/bin/gcc", 
+                  "win": "C:\\Program Files\\GCC-4.9.2-x64\\bin\\gcc.exe"
+                }, 
+                "soft_version_cmd": {
+                  "linux": "--version > $#filename#$ 2>&1", 
+                  "win": " --version > $#filename#$ 2>&1"
+                }, 
+                "sort": 100, 
+                "tool_postfix": "-7", 
+                "tool_postfix_configured": "yes", 
+                "tool_prefix": "", 
+                "tool_prefix_configured": "yes", 
+                "version": "7.2.0", 
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ]
+              }, 
+              "data_name": "GNU C compiler", 
+              "deps": {}, 
+              "env": {
+                "CK_AR": "ar", 
+                "CK_ASM_EXT": ".s", 
+                "CK_CC": "gcc-7", 
+                "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                "CK_COMPILER_FLAG_CPP0X": "-std=c++0x", 
+                "CK_COMPILER_FLAG_CPP11": "-std=c++11", 
+                "CK_COMPILER_FLAG_CPP14": "-std=c++14", 
+                "CK_COMPILER_FLAG_CPP1Z": "-std=c++1z", 
+                "CK_COMPILER_FLAG_GPROF": "-pg", 
+                "CK_COMPILER_FLAG_OPENMP": "-fopenmp", 
+                "CK_COMPILER_FLAG_PLUGIN": "-fplugin=", 
+                "CK_COMPILER_FLAG_PTHREAD_LIB": "-lpthread", 
+                "CK_COMPILER_FLAG_STD90": "-std=c90", 
+                "CK_COMPILER_FLAG_STD99": "-std=c99", 
+                "CK_COMPILER_POSTFIX": "-7", 
+                "CK_COMPILER_TOOLCHAIN_NAME": "gcc", 
+                "CK_CXX": "g++-7", 
+                "CK_DLL_EXT": ".so", 
+                "CK_ENV_COMPILER_GCC": "/usr", 
+                "CK_EXE_EXT": ".out", 
+                "CK_EXTRA_LIB_DL": "-ldl", 
+                "CK_EXTRA_LIB_M": "-lm", 
+                "CK_FLAGS_CREATE_ASM": "-S", 
+                "CK_FLAGS_CREATE_OBJ": "-c", 
+                "CK_FLAGS_DLL": "-shared -fPIC", 
+                "CK_FLAGS_DLL_EXTRA": "", 
+                "CK_FLAGS_DYNAMIC_BIN": " ", 
+                "CK_FLAGS_OUTPUT": "-o ", 
+                "CK_FLAGS_STATIC_BIN": "-static -fPIC", 
+                "CK_FLAGS_STATIC_LIB": "-fPIC", 
+                "CK_FLAG_PREFIX_INCLUDE": "-I", 
+                "CK_FLAG_PREFIX_LIB_DIR": "-L", 
+                "CK_FLAG_PREFIX_VAR": "-D", 
+                "CK_GPROF_OUT_FILE": "gmon.out", 
+                "CK_LB": "ar rcs", 
+                "CK_LB_OUTPUT": "-o ", 
+                "CK_LD": "ld", 
+                "CK_LD_FLAGS_EXTRA": "", 
+                "CK_LIB_EXT": ".a", 
+                "CK_LINKER_FLAG_OPENMP": "-lgomp -lrt", 
+                "CK_MAKE": "make", 
+                "CK_OBJDUMP": "objdump -d", 
+                "CK_OBJ_EXT": ".o", 
+                "CK_OPT_ALL_WARNINGS": "-Wall", 
+                "CK_OPT_SIZE": "-Os", 
+                "CK_OPT_SPEED": "-O3", 
+                "CK_OPT_SPEED_SAFE": "-O2", 
+                "CK_OPT_UNWIND": " ", 
+                "CK_PLUGIN_FLAG": "-fplugin=", 
+                "CK_PROFILER": "gprof", 
+                "CK_RANLIB": "ranlib"
+              }, 
+              "env_script": "env.sh", 
+              "setup": {
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_bits": "64", 
+                "target_os_uoa": "4258b5fe54828a50", 
+                "version": "7.2.0", 
+                "version_split": [
+                  7, 
+                  2, 
+                  0
+                ]
+              }, 
+              "soft_alias": "compiler.gcc", 
+              "soft_uoa": "3a8a82fa40bf992d", 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "gcc", 
+                "host-os-linux-64", 
+                "lang-c", 
+                "lang-cpp", 
+                "target-os-linux-64", 
+                "v7", 
+                "v7.2", 
+                "v7.2.0"
+              ]
+            }, 
+            "local": "yes", 
+            "name": "C compiler", 
+            "num_entries": 1, 
+            "sort": 10, 
+            "tags": "compiler,lang-c", 
+            "uoa": "f122f4b119de8bd8", 
+            "ver": "7.2.0"
+          }, 
+          "lib-opencl": {
+            "bat": ". /home/anton/CK_REPOS/local/env/e64eeebff42c5a68/env.sh\n", 
+            "choices": [
+              "e64eeebff42c5a68"
+            ], 
+            "cus": {
+              "check_that_exists": "yes", 
+              "ck_version": 10, 
+              "dynamic_lib": "libOpenCL.so", 
+              "env_prefix": "CK_ENV_LIB_OPENCL", 
+              "full_path": "/usr/lib/aarch64-linux-gnu/mali-G71_r6p0-01rel0_linux_1/fbdev_instr1_cl2/libOpenCL.so", 
+              "include_name": "CL/opencl.h", 
+              "limit_recursion_dir_search": {
+                "linux": 4, 
+                "win": 4
+              }, 
+              "path_include": "/usr/include", 
+              "path_lib": "/usr/lib/aarch64-linux-gnu/mali-G71_r6p0-01rel0_linux_1/fbdev_instr1_cl2", 
+              "skip_path": "yes", 
+              "soft_file": {
+                "linux": "libOpenCL.so", 
+                "win": "OpenCL.lib"
+              }, 
+              "soft_path_example": {
+                "linux": "/usr/lib/libOpenCL.so", 
+                "win": "C:\\Program Files (x86)\\Intel\\OpenCL SDK\\4.6\\lib\\x64\\OpenCL.lib"
+              }, 
+              "static_lib": "libOpenCL.so", 
+              "version": "r6p0-instr1-cl2", 
+              "version_split": [
+                0, 
+                0, 
+                0
+              ]
+            }, 
+            "dict": {
+              "customize": {
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "dynamic_lib": "libOpenCL.so", 
+                "env_prefix": "CK_ENV_LIB_OPENCL", 
+                "full_path": "/usr/lib/aarch64-linux-gnu/mali-G71_r6p0-01rel0_linux_1/fbdev_instr1_cl2/libOpenCL.so", 
+                "include_name": "CL/opencl.h", 
+                "limit_recursion_dir_search": {
+                  "linux": 4, 
+                  "win": 4
+                }, 
+                "path_include": "/usr/include", 
+                "path_lib": "/usr/lib/aarch64-linux-gnu/mali-G71_r6p0-01rel0_linux_1/fbdev_instr1_cl2", 
+                "skip_path": "yes", 
+                "soft_file": {
+                  "linux": "libOpenCL.so", 
+                  "win": "OpenCL.lib"
+                }, 
+                "soft_path_example": {
+                  "linux": "/usr/lib/libOpenCL.so", 
+                  "win": "C:\\Program Files (x86)\\Intel\\OpenCL SDK\\4.6\\lib\\x64\\OpenCL.lib"
+                }, 
+                "static_lib": "libOpenCL.so", 
+                "version": "r6p0-instr1-cl2", 
+                "version_split": [
+                  0, 
+                  0, 
+                  0
+                ]
+              }, 
+              "data_name": "OpenCL library", 
+              "deps": {}, 
+              "env": {
+                "CK_ENV_LIB_OPENCL": "/usr", 
+                "CK_ENV_LIB_OPENCL_DYNAMIC_NAME": "libOpenCL.so", 
+                "CK_ENV_LIB_OPENCL_INCLUDE_NAME": "CL/opencl.h", 
+                "CK_ENV_LIB_OPENCL_STATIC_NAME": "libOpenCL.so"
+              }, 
+              "env_script": "env.sh", 
+              "setup": {
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_bits": "64", 
+                "target_os_uoa": "4258b5fe54828a50", 
+                "version": "r6p0-instr1-cl2", 
+                "version_split": [
+                  0, 
+                  0, 
+                  0
+                ]
+              }, 
+              "soft_alias": "lib.opencl", 
+              "soft_uoa": "6eb9a57038688ad3", 
+              "tags": [
+                "64bits", 
+                "host-os-linux-64", 
+                "lib", 
+                "opencl", 
+                "target-os-linux-64", 
+                "v0", 
+                "v0.0", 
+                "v0.0.0"
+              ]
+            }, 
+            "local": "yes", 
+            "name": "OpenCL library", 
+            "num_entries": 1, 
+            "sort": 20, 
+            "tags": "lib,opencl", 
+            "uoa": "e64eeebff42c5a68", 
+            "ver": "r6p0-instr1-cl2"
+          }
+        }, 
+        "gpgpu_id": {
+          "gpgpu_device_id": "0", 
+          "gpgpu_platform_id": "0"
+        }, 
+        "gpgpu_misc": {
+          "- max work-item size #0": "256", 
+          "- max work-item size #1": "256", 
+          "- max work-item size #2": "256", 
+          "address bits": "64", 
+          "application name set to": "Untitled", 
+          "hardware (device) version": "OpenCL 2.0 v1.r6p0-01rel0.24c5f5e966f2b7f1f19b91d6f32ff53e", 
+          "opencl c version": "OpenCL C 2.0 v1.r6p0-01rel0.24c5f5e966f2b7f1f19b91d6f32ff53e", 
+          "output directory set to": ".", 
+          "parallel compute units": "8", 
+          "software (driver) version": "2.0", 
+          "unified memory": "yes", 
+          "work-item dimensions": "3"
+        }
+      }
+    ], 
+    "number_of_selected_compiler_flags": 0, 
+    "platform": {
+      "cpu": {
+        "all_freqs": {
+          "0": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "1": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "2": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "3": [
+            533000, 
+            999000, 
+            1402000, 
+            1709000, 
+            1844000
+          ], 
+          "4": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "5": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "6": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ], 
+          "7": [
+            903000, 
+            1421000, 
+            1805000, 
+            2112000, 
+            2362000
+          ]
+        }, 
+        "cpu_abi": "", 
+        "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+        "current_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "max_freq": {
+          "0": 1844.0, 
+          "1": 1844.0, 
+          "2": 1844.0, 
+          "3": 1844.0, 
+          "4": 2362.0, 
+          "5": 2362.0, 
+          "6": 2362.0, 
+          "7": 2362.0
+        }, 
+        "name": "", 
+        "num_proc": "8", 
+        "sub_name": "", 
+        "workload_automation": {
+          "device_config": {
+            "core_clusters": [
+              0, 
+              0, 
+              0, 
+              0, 
+              1, 
+              1, 
+              1, 
+              1
+            ], 
+            "core_names": [
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd03-4", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1", 
+              "0x41-8-0x0-0xd09-1"
+            ]
+          }
+        }
+      }, 
+      "cpu_misc": {
+        "0": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        "1": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "1", 
+            "1", 
+            "1", 
+            "1", 
+            "1"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "1"
+        }, 
+        "2": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "2", 
+            "2", 
+            "2", 
+            "2", 
+            "2"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "2"
+        }, 
+        "3": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "3", 
+            "3", 
+            "3", 
+            "3", 
+            "3"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "3"
+        }, 
+        "4": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }, 
+        "5": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "5", 
+            "5", 
+            "5", 
+            "5", 
+            "5"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "5"
+        }, 
+        "6": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "6", 
+            "6", 
+            "6", 
+            "6", 
+            "6"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "6"
+        }, 
+        "7": {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "7", 
+            "7", 
+            "7", 
+            "7", 
+            "7"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "7"
+        }
+      }, 
+      "cpu_new_format": "yes", 
+      "cpu_unique": [
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd03", 
+          "CPU revision": "4", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "0", 
+            "0", 
+            "0", 
+            "0", 
+            "0"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd03-4", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 1844.0, 
+          "max_freq": 1844.0, 
+          "new_format": "yes", 
+          "processor": "0"
+        }, 
+        {
+          "BogoMIPS": "3.84", 
+          "CPU architecture": "8", 
+          "CPU implementer": "0x41", 
+          "CPU part": "0xd09", 
+          "CPU revision": "1", 
+          "CPU variant": "0x0", 
+          "Features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "all_freqs": [
+            "4", 
+            "4", 
+            "4", 
+            "4", 
+            "4"
+          ], 
+          "ck_cpu_name": "0x41-8-0x0-0xd09-1", 
+          "cpu_abi": "", 
+          "cpu_features": "fp asimd evtstrm aes pmull sha1 sha2 crc32", 
+          "cur_freq": 2362.0, 
+          "max_freq": 2362.0, 
+          "new_format": "yes", 
+          "processor": "4"
+        }
+      ], 
+      "gpu": {
+        "name": "", 
+        "vendor": ""
+      }, 
+      "gpu_misc": {}, 
+      "os": {
+        "abi": "aarch64", 
+        "bits": "64", 
+        "ck_os_base_uoa": "", 
+        "ck_os_uoa": "linux-64", 
+        "name": "Debian GNU/Linux 9 (stretch)", 
+        "name_long": "Linux-4.4.74-00216-g10816f6-aarch64-with-debian-9.1", 
+        "name_short": "Linux 4.4.74", 
+        "serial_number": ""
+      }, 
+      "os_misc": {}, 
+      "platform": {
+        "model": "HiKey960\u0000", 
+        "name": "HiKey960\u0000 (HiKey960\u0000)", 
+        "vendor": "HiKey960\u0000"
+      }, 
+      "platform_misc": {}
+    }, 
+    "statistical_repetitions": 50
+  }
+}

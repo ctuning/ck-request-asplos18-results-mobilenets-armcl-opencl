@@ -1,0 +1,10 @@
+{
+  "data_uoa": "ck-request-asplos18-results-mobilenets-armcl-opencl",
+  "data_uid": "6fc8d41b94891b3a",
+  "data_alias": "ck-request-asplos18-results-mobilenets-armcl-opencl",
+  "data_name": "ck-request-asplos18-results-mobilenets-armcl-opencl",
+  "dict": {
+    "shared": "git",
+    "url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl"
+  }
+}

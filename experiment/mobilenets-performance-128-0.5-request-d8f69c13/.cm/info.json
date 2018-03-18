@@ -1,0 +1,16 @@
+{
+  "backup_data_uid": "a0c8e9940c4a8baf",
+  "backup_module_uid": "bc0409fb61f0aa82",
+  "backup_module_uoa": "experiment",
+  "control": {
+    "engine": "CK",
+    "iso_datetime": "2018-03-04T00:14:05.097619",
+    "version": [
+      "1",
+      "9",
+      "4",
+      "1"
+    ]
+  },
+  "data_name": "mobilenets-performance-128-0.5-request-d8f69c13"
+}
