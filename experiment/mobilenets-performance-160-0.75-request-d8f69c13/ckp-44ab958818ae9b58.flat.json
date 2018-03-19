@@ -18952,6 +18952,7 @@
   ],
   "##features#gpgpu@0#gpgpu_misc#work-item dimensions#min": "3",
   "##features#gpgpu@0#gpgpu_misc#work-item dimensions#repeats": 50,
+  "##features#model_size#min": 10498594,
   "##features#number_of_selected_compiler_flags#all": [
     0,
     0,
