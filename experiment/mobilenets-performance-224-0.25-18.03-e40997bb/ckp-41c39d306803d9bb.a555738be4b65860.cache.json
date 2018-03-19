@@ -29,5 +29,7 @@
   "##choices#env#CK_SKIP_IMAGES#min": 0,
   "##features#gpgpu@0#gpgpu_misc#opencl c version#min": "OpenCL C 2.0 v1.r6p0-01rel0.24c5f5e966f2b7f1f19b91d6f32ff53e",
   "##pipeline_state#fail_bool#min": false,
-  "##pipeline_state#fail_reason#min": ""
+  "##pipeline_state#fail_reason#min": "",
+  "experiment#max": "",
+  "experiment#min": ""
 }
