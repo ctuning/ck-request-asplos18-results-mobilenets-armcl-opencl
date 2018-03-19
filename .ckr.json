@@ -5,7 +5,7 @@
   "data_name": "ck-request-asplos18-results-mobilenets-armcl-opencl",
   "dict": {
     "shared": "git",
-    "url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl"
+    "url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl",
     "repo_deps": [
       {
         "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
