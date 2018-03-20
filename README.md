@@ -2,6 +2,8 @@
 [![logo](https://github.com/ctuning/ck-guide-images/blob/master/logo-validated-by-the-community-simple.png)](http://cTuning.org)
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1203659.svg)](https://doi.org/10.5281/zenodo.1203659)
+
 <!-------------------------------------------------------------------------------------->
 # Introduction
 
