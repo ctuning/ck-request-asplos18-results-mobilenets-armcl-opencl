@@ -141,6 +141,7 @@
     "platform_price": 239,
     "platform_price_date": "20170425",
     "platform_species": "embedded",
+    "processed": "yes",
     "repo_cmd": "ck pull repo --url=https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl",
     "repo_uid": "7698eaf859b79f2b",
     "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
