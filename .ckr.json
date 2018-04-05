@@ -7,6 +7,10 @@
     "shared": "git",
     "url": "https://github.com/ctuning/ck-request-asplos18-results-mobilenets-armcl-opencl",
     "repo_deps": [
+    "repo_deps": [
+      {
+        "repo_uoa": "ck-request-asplos18-results"
+      },
       {
         "repo_uoa": "ck-request-asplos18-mobilenets-armcl-opencl",
         "repo_url": "https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl"
