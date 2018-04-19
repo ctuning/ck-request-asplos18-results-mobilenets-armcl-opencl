@@ -1,0 +1,1481 @@
+{
+  "tmp_dir": "", 
+  "features": {
+    "compiler_version": {
+      "raw": "", 
+      "list": [], 
+      "str": ""
+    }
+  }, 
+  "characteristics": {}, 
+  "no_clean": "no", 
+  "no_compile": "no", 
+  "choices": {
+    "cpu_freq": "max", 
+    "no_state_check": "yes", 
+    "target": "", 
+    "module_uoa": "b0ac08fe1d3c2615", 
+    "host_os": "linux-64", 
+    "energy": "no", 
+    "flags": "-O3", 
+    "dataset_file": "", 
+    "cmd_key": "default", 
+    "skip_calibration": "yes", 
+    "env": {
+      "CK_BATCHES_DIR": "../batches", 
+      "CK_RESULTS_DIR": "predictions", 
+      "CK_ENV_DATASET_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/", 
+      "CK_BATCH_LIST": "../batches", 
+      "CK_SKIP_IMAGES": 0, 
+      "CK_BATCH_COUNT": 2, 
+      "CK_IMAGE_LIST": "../images"
+    }, 
+    "target_os_bits": "64", 
+    "skip_print_timers": "yes", 
+    "compile_type": "dynamic", 
+    "device_id": "", 
+    "data_uoa": "classification-tensorflow", 
+    "target_os": "linux-64", 
+    "gpu_freq": "max"
+  }, 
+  "state": {
+    "tmp_dir": "tmp", 
+    "cur_dir": "/home/anton/CK_REPOS/ck-request-asplos18-mobilenets-armcl-opencl/script/mobilenets-tensorflow"
+  }, 
+  "dependencies": {
+    "imagenet-val": {
+      "sort": 20, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/666425cab908db6d/env.sh\n", 
+      "cus": {
+        "force_ask_path": "yes", 
+        "used_package_uid": "60cb8b2218445c36", 
+        "used_package_uoa": "imagenet-2012-val-min", 
+        "install_env": {
+          "CK_HOST_OS_ID": "linux", 
+          "PACKAGE_VERSION": "2012", 
+          "CK_TARGET_OS_ID": "linux", 
+          "IMAGENET_VAL_URL": "http://cKnowledge.org/ai/data/ILSVRC2012_img_val_500.tar", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "IMAGENET_VAL_MD5": "8627befdd8c2bcf305729020e9db354e"
+        }, 
+        "soft_file": {
+          "win": "ILSVRC2012_val_00000001.JPEG", 
+          "linux": "ILSVRC2012_val_00000001.JPEG"
+        }, 
+        "skip_path": "yes", 
+        "version": "2012", 
+        "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL", 
+        "extra_dir": "", 
+        "version_split": [
+          2012
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 3, 
+          "linux": 3
+        }, 
+        "check_that_exists": "yes", 
+        "no_ver_in_suggested_path": "yes", 
+        "ck_version": 10, 
+        "full_path": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/ILSVRC2012_val_00000001.JPEG", 
+        "no_os_in_suggested_path": "yes"
+      }, 
+      "name": "ImageNet dataset (val)", 
+      "tags": "dataset,imagenet,raw,val", 
+      "num_entries": 1, 
+      "package_uoa": "60cb8b2218445c36", 
+      "uoa": "666425cab908db6d", 
+      "dict": {
+        "data_name": "ImageNet dataset (validation)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "caffe", 
+          "channel-stable", 
+          "dataset", 
+          "host-os-linux-64", 
+          "ilsvrc2012", 
+          "ilsvrc2012min", 
+          "imagenet", 
+          "raw", 
+          "small_dataset", 
+          "target-os-linux-64", 
+          "v2012", 
+          "val"
+        ], 
+        "customize": {
+          "force_ask_path": "yes", 
+          "used_package_uid": "60cb8b2218445c36", 
+          "used_package_uoa": "imagenet-2012-val-min", 
+          "install_env": {
+            "CK_HOST_OS_ID": "linux", 
+            "PACKAGE_VERSION": "2012", 
+            "CK_TARGET_OS_ID": "linux", 
+            "IMAGENET_VAL_URL": "http://cKnowledge.org/ai/data/ILSVRC2012_img_val_500.tar", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "IMAGENET_VAL_MD5": "8627befdd8c2bcf305729020e9db354e"
+          }, 
+          "soft_file": {
+            "win": "ILSVRC2012_val_00000001.JPEG", 
+            "linux": "ILSVRC2012_val_00000001.JPEG"
+          }, 
+          "skip_path": "yes", 
+          "version": "2012", 
+          "env_prefix": "CK_ENV_DATASET_IMAGENET_VAL", 
+          "extra_dir": "", 
+          "version_split": [
+            2012
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 3, 
+            "linux": 3
+          }, 
+          "check_that_exists": "yes", 
+          "no_ver_in_suggested_path": "yes", 
+          "ck_version": 10, 
+          "full_path": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/ILSVRC2012_val_00000001.JPEG", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "version_split": [
+            2012
+          ], 
+          "target_os_bits": "64", 
+          "version": "2012", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "60cb8b2218445c36", 
+        "soft_uoa": "ff47fc6a33b4b03b", 
+        "env": {
+          "CK_CAFFE_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min/", 
+          "CK_ENV_DATASET_IMAGENET_VAL": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-val-min"
+        }, 
+        "soft_alias": "dataset.imagenet.val"
+      }, 
+      "ver": "2012", 
+      "choices": [
+        "666425cab908db6d"
+      ], 
+      "local": "yes"
+    }, 
+    "python": {
+      "sort": 10, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/fda4f4424b64a253/env.sh\n", 
+      "cus": {
+        "soft_version_cmd": {
+          "win": "--version > $#filename#$ 2>&1", 
+          "linux": "--version > $#filename#$ 2>&1"
+        }, 
+        "only_for_host_os_tags": [
+          "windows", 
+          "linux"
+        ], 
+        "build_dir_name": "python", 
+        "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+        "skip_path": "yes", 
+        "only_for_target_os_tags": [
+          "windows", 
+          "android", 
+          "linux"
+        ], 
+        "languages": [
+          "PYTHON"
+        ], 
+        "soft_file": {
+          "win": "python*.exe", 
+          "linux": "python*"
+        }, 
+        "version": "2.7.13", 
+        "soft_file_from_host_os": "yes", 
+        "add_only_with_version": "yes", 
+        "version_split": [
+          2, 
+          7, 
+          13
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 4, 
+          "linux": 3
+        }, 
+        "check_that_exists": "yes", 
+        "ck_version": 10, 
+        "full_path": "/usr/bin/python2"
+      }, 
+      "name": "Python", 
+      "tags": "compiler,python", 
+      "build_dir_name": "python", 
+      "num_entries": 2, 
+      "choices": [
+        "9c4f9b484b6a41e8", 
+        "fda4f4424b64a253"
+      ], 
+      "detected_ver": "2.7.13", 
+      "uoa": "fda4f4424b64a253", 
+      "dict": {
+        "data_name": "python", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "compiler", 
+          "host-os-linux-64", 
+          "lang-python", 
+          "python", 
+          "target-os-linux-64", 
+          "v2", 
+          "v2.7", 
+          "v2.7.13"
+        ], 
+        "customize": {
+          "soft_version_cmd": {
+            "win": "--version > $#filename#$ 2>&1", 
+            "linux": "--version > $#filename#$ 2>&1"
+          }, 
+          "only_for_host_os_tags": [
+            "windows", 
+            "linux"
+          ], 
+          "build_dir_name": "python", 
+          "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+          "skip_path": "yes", 
+          "only_for_target_os_tags": [
+            "windows", 
+            "android", 
+            "linux"
+          ], 
+          "languages": [
+            "PYTHON"
+          ], 
+          "soft_file": {
+            "win": "python*.exe", 
+            "linux": "python*"
+          }, 
+          "version": "2.7.13", 
+          "soft_file_from_host_os": "yes", 
+          "add_only_with_version": "yes", 
+          "version_split": [
+            2, 
+            7, 
+            13
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 4, 
+            "linux": 3
+          }, 
+          "check_that_exists": "yes", 
+          "ck_version": 10, 
+          "full_path": "/usr/bin/python2"
+        }, 
+        "setup": {
+          "version_split": [
+            2, 
+            7, 
+            13
+          ], 
+          "target_os_bits": "64", 
+          "version": "2.7.13", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "soft_uoa": "45d68512df22fde7", 
+        "env": {
+          "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python2", 
+          "CK_ENV_COMPILER_PYTHON": "/usr", 
+          "CK_PYTHON_VER2": "YES", 
+          "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip2", 
+          "CK_PY_RT": "python", 
+          "CK_PY_OBJ_EXT": ".pyc", 
+          "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+          "CK_PYTHON_BIN": "python2", 
+          "CK_PYC": "python", 
+          "CK_PYTHON_PIP_BIN": "pip2"
+        }, 
+        "soft_alias": "compiler.python"
+      }, 
+      "ver": "2.7.13", 
+      "local": "yes"
+    }, 
+    "model-and-weights": {
+      "sort": 40, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/6b74c17a272acc4f/env.sh\n", 
+      "cus": {
+        "force_ask_path": "yes", 
+        "used_package_uid": "67dfc5ac2694ecb8", 
+        "used_package_uoa": "67dfc5ac2694ecb8", 
+        "install_env": {
+          "CK_HOST_OS_ID": "linux", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "CK_TARGET_OS_ID": "linux", 
+          "WEIGHTS_FILE": "tf-squeezenet-weights.mat", 
+          "PACKAGE_SKIP_LINUX_MAKE": "YES", 
+          "MODULE_FILE": "tf-squeezenet-model.py", 
+          "PACKAGE_VERSION": "ImageNet"
+        }, 
+        "package_extra_name": " (squeezenet)", 
+        "skip_path": "yes", 
+        "version_split": [
+          0
+        ], 
+        "version": "ImageNet", 
+        "env_prefix": "CK_ENV_TENSORFLOW_MODEL", 
+        "skip_file_check": "yes", 
+        "check_that_exists": "yes", 
+        "no_ver_in_suggested_path": "yes", 
+        "ck_version": 10, 
+        "full_path": "/home/anton/CK_TOOLS/tensorflowmodel-squeezenet-py/tf-squeezenet-model.py", 
+        "no_os_in_suggested_path": "yes"
+      }, 
+      "name": "TensorFlow-Python model and weights", 
+      "tags": "tensorflow-model,weights,python", 
+      "num_entries": 1, 
+      "package_uoa": "67dfc5ac2694ecb8", 
+      "uoa": "6b74c17a272acc4f", 
+      "dict": {
+        "data_name": "TensorFlow python model and weights (squeezenet)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "host-os-linux-64", 
+          "python", 
+          "squeezenet", 
+          "target-os-linux-64", 
+          "tensorflow-model", 
+          "tensorflowmodel", 
+          "v0", 
+          "weights"
+        ], 
+        "customize": {
+          "force_ask_path": "yes", 
+          "used_package_uid": "67dfc5ac2694ecb8", 
+          "used_package_uoa": "67dfc5ac2694ecb8", 
+          "install_env": {
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TARGET_OS_ID": "linux", 
+            "WEIGHTS_FILE": "tf-squeezenet-weights.mat", 
+            "PACKAGE_SKIP_LINUX_MAKE": "YES", 
+            "MODULE_FILE": "tf-squeezenet-model.py", 
+            "PACKAGE_VERSION": "ImageNet"
+          }, 
+          "package_extra_name": " (squeezenet)", 
+          "skip_path": "yes", 
+          "version_split": [
+            0
+          ], 
+          "version": "ImageNet", 
+          "env_prefix": "CK_ENV_TENSORFLOW_MODEL", 
+          "skip_file_check": "yes", 
+          "check_that_exists": "yes", 
+          "no_ver_in_suggested_path": "yes", 
+          "ck_version": 10, 
+          "full_path": "/home/anton/CK_TOOLS/tensorflowmodel-squeezenet-py/tf-squeezenet-model.py", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "version_split": [
+            0
+          ], 
+          "target_os_bits": "64", 
+          "version": "ImageNet", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "67dfc5ac2694ecb8", 
+        "soft_uoa": "439b9f1757f27091", 
+        "env": {
+          "CK_ENV_TENSORFLOW_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-squeezenet-py/tf-squeezenet-model.py", 
+          "CK_ENV_TENSORFLOW_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-squeezenet-py/tf-squeezenet-weights.mat"
+        }, 
+        "soft_alias": "model.tensorflow.py"
+      }, 
+      "ver": "ImageNet", 
+      "choices": [
+        "6b74c17a272acc4f"
+      ], 
+      "local": "yes"
+    }, 
+    "imagenet-aux": {
+      "sort": 30, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/fbd0ffc3bcc74caa/env.sh\n", 
+      "cus": {
+        "used_package_uid": "4e3e9dd897f125bb", 
+        "used_package_uoa": "4e3e9dd897f125bb", 
+        "soft_file": {
+          "win": "imagenet_mean.binaryproto", 
+          "linux": "imagenet_mean.binaryproto"
+        }, 
+        "skip_path": "yes", 
+        "ck_version": 10, 
+        "path_bin": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux", 
+        "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX", 
+        "version": "2012", 
+        "extra_dir": "", 
+        "version_split": [
+          2012
+        ], 
+        "limit_recursion_dir_search": {
+          "win": 3, 
+          "linux": 3
+        }, 
+        "install_env": {
+          "DOWNLOAD_FILE_MD5": "f963098ea0e785a968ca1eb634003a90", 
+          "CK_HOST_OS_ID": "linux", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "CK_TARGET_OS_ID": "linux", 
+          "DOWNLOAD_FILE1": "caffe_ilsvrc12.tar", 
+          "DOWNLOAD_URL": "http://dl.caffe.berkeleyvision.org/", 
+          "DOWNLOAD_NAME": "ILSVRC'12 aux dataset", 
+          "DOWNLOAD_FILE": "caffe_ilsvrc12.tar.gz", 
+          "PACKAGE_VERSION": "2012"
+        }, 
+        "no_ver_in_suggested_path": "yes", 
+        "check_that_exists": "yes", 
+        "full_path": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto", 
+        "no_os_in_suggested_path": "yes"
+      }, 
+      "name": "ImageNet dataset (aux)", 
+      "tags": "dataset,imagenet,aux", 
+      "num_entries": 1, 
+      "package_uoa": "4e3e9dd897f125bb", 
+      "uoa": "fbd0ffc3bcc74caa", 
+      "dict": {
+        "data_name": "ImageNet dataset (aux)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "aux", 
+          "caffe", 
+          "channel-stable", 
+          "dataset", 
+          "host-os-linux-64", 
+          "ilsvrc2012", 
+          "imagenet", 
+          "target-os-linux-64", 
+          "v2012"
+        ], 
+        "customize": {
+          "used_package_uid": "4e3e9dd897f125bb", 
+          "used_package_uoa": "4e3e9dd897f125bb", 
+          "soft_file": {
+            "win": "imagenet_mean.binaryproto", 
+            "linux": "imagenet_mean.binaryproto"
+          }, 
+          "skip_path": "yes", 
+          "ck_version": 10, 
+          "path_bin": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux", 
+          "env_prefix": "CK_ENV_DATASET_IMAGENET_AUX", 
+          "version": "2012", 
+          "extra_dir": "", 
+          "version_split": [
+            2012
+          ], 
+          "limit_recursion_dir_search": {
+            "win": 3, 
+            "linux": 3
+          }, 
+          "install_env": {
+            "DOWNLOAD_FILE_MD5": "f963098ea0e785a968ca1eb634003a90", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TARGET_OS_ID": "linux", 
+            "DOWNLOAD_FILE1": "caffe_ilsvrc12.tar", 
+            "DOWNLOAD_URL": "http://dl.caffe.berkeleyvision.org/", 
+            "DOWNLOAD_NAME": "ILSVRC'12 aux dataset", 
+            "DOWNLOAD_FILE": "caffe_ilsvrc12.tar.gz", 
+            "PACKAGE_VERSION": "2012"
+          }, 
+          "no_ver_in_suggested_path": "yes", 
+          "check_that_exists": "yes", 
+          "full_path": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "version_split": [
+            2012
+          ], 
+          "target_os_bits": "64", 
+          "version": "2012", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "4e3e9dd897f125bb", 
+        "soft_uoa": "167d823440e6a59a", 
+        "env": {
+          "CK_CAFFE_IMAGENET_TEST_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/test.txt", 
+          "CK_CAFFE_IMAGENET_BET_BIN": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/imagenet.bet.pickle", 
+          "CK_CAFFE_IMAGENET_SYNSETS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synsets.txt", 
+          "CK_CAFFE_IMAGENET_TRAIN_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/train.txt", 
+          "CK_CAFFE_IMAGENET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/synset_words.txt", 
+          "CK_CAFFE_IMAGENET_VAL_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/val.txt", 
+          "CK_CAFFE_IMAGENET_DET_SYNSET_WORDS_TXT": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/det_synset_words.txt", 
+          "CK_ENV_DATASET_IMAGENET_AUX": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux", 
+          "CK_CAFFE_IMAGENET_MEAN_BIN": "/home/anton/CK_TOOLS/dataset-imagenet-ilsvrc2012-aux/imagenet_mean.binaryproto"
+        }, 
+        "soft_alias": "dataset.imagenet.aux"
+      }, 
+      "ver": "2012", 
+      "choices": [
+        "fbd0ffc3bcc74caa"
+      ], 
+      "local": "yes"
+    }, 
+    "weights": {
+      "sort": 40, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/6702dc6f64390a36/env.sh\n", 
+      "ver": "ImageNet", 
+      "name": "TensorFlow-Python model and weights", 
+      "tags": "tensorflow-model,weights,python", 
+      "num_entries": 1, 
+      "package_uoa": "cba161a3eb42ecaf", 
+      "uoa": "6702dc6f64390a36", 
+      "dict": {
+        "data_name": "TensorFlow python model and weights (mobilenet-0.50-192)", 
+        "deps": {}, 
+        "tags": [
+          "64bits", 
+          "host-os-linux-64", 
+          "mobilenet", 
+          "mobilenet-v1", 
+          "mobilenet-v1-0.50-192", 
+          "python", 
+          "target-os-linux-64", 
+          "tensorflow-model", 
+          "tensorflowmodel", 
+          "v0", 
+          "weights"
+        ], 
+        "customize": {
+          "force_ask_path": "yes", 
+          "used_package_uid": "cba161a3eb42ecaf", 
+          "used_package_uoa": "cba161a3eb42ecaf", 
+          "package_extra_name": " (mobilenet-0.50-192)", 
+          "skip_path": "yes", 
+          "version_split": [
+            0
+          ], 
+          "version": "ImageNet", 
+          "check_that_exists": "yes", 
+          "env_prefix": "CK_ENV_TENSORFLOW_MODEL", 
+          "skip_file_check": "yes", 
+          "install_env": {
+            "WEIGHTS_FILE": "mobilenet_v1_0.50_192.ckpt", 
+            "MODEL_WEIGHTS_ARE_CHECKPOINTS": "YES", 
+            "CK_HOST_OS_ID": "linux", 
+            "PACKAGE_NAME": "mobilenet_v1_0.50_192_2017_06_14.tar.gz", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TARGET_OS_ID": "linux", 
+            "MODEL_MOBILENET_VERSION": "1", 
+            "MODEL_MOBILENET_RESOLUTION": "192", 
+            "MODEL_MOBILENET_MULTIPLIER": "0.50", 
+            "PACKAGE_URL": "http://download.tensorflow.org/models", 
+            "MODULE_FILE": "tf-mobilenet-model.py", 
+            "PACKAGE_VERSION": "ImageNet"
+          }, 
+          "no_ver_in_suggested_path": "yes", 
+          "ck_version": 10, 
+          "full_path": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-0.50-192-py/tf-mobilenet-model.py", 
+          "no_os_in_suggested_path": "yes"
+        }, 
+        "setup": {
+          "version_split": [
+            0
+          ], 
+          "target_os_bits": "64", 
+          "version": "ImageNet", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "target_os_uoa": "4258b5fe54828a50"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "cba161a3eb42ecaf", 
+        "soft_uoa": "439b9f1757f27091", 
+        "env": {
+          "CK_ENV_TENSORFLOW_MODEL_MODULE": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-0.50-192-py/tf-mobilenet-model.py", 
+          "CK_ENV_TENSORFLOW_MODEL_WEIGHTS": "/home/anton/CK_TOOLS/tensorflowmodel-mobilenet-v1-0.50-192-py/mobilenet_v1_0.50_192.ckpt", 
+          "CK_ENV_TENSORFLOW_MODEL_WEIGHTS_ARE_CHECKPOINTS": "YES", 
+          "CK_ENV_TENSORFLOW_MODEL_MOBILENET_MULTIPLIER": "0.50", 
+          "CK_ENV_TENSORFLOW_MODEL_MOBILENET_VERSION": "1", 
+          "CK_ENV_TENSORFLOW_MODEL_MOBILENET_RESOLUTION": "192"
+        }, 
+        "soft_alias": "model.tensorflow.py"
+      }, 
+      "choices": [
+        "6702dc6f64390a36"
+      ], 
+      "local": "yes"
+    }, 
+    "library": {
+      "sort": 50, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/f995f127e4dd135b/env.sh\n", 
+      "ver": "1.7", 
+      "name": "TensorFlow library", 
+      "tags": "lib,tensorflow", 
+      "num_entries": 1, 
+      "package_uoa": "d443fd4662890719", 
+      "uoa": "f995f127e4dd135b", 
+      "no_tags": "tensorflow_cc", 
+      "dict": {
+        "data_name": "TensorFlow library (from sources, cpu)", 
+        "deps": {
+          "python": {
+            "detected_ver": "2.7.13", 
+            "sort": 5, 
+            "bat": ". /home/anton/CK_REPOS/local/env/fda4f4424b64a253/env.sh\n", 
+            "ver": "2.7.13", 
+            "name": "Python interpreter", 
+            "tags": "compiler,python", 
+            "build_dir_name": "python", 
+            "uoa": "fda4f4424b64a253", 
+            "choices": [
+              "9c4f9b484b6a41e8", 
+              "fda4f4424b64a253"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "host-os-linux-64", 
+                "lang-python", 
+                "python", 
+                "target-os-linux-64", 
+                "v2", 
+                "v2.7", 
+                "v2.7.13"
+              ], 
+              "customize": {
+                "soft_version_cmd": {
+                  "win": "--version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "build_dir_name": "python", 
+                "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+                "skip_path": "yes", 
+                "only_for_target_os_tags": [
+                  "windows", 
+                  "android", 
+                  "linux"
+                ], 
+                "languages": [
+                  "PYTHON"
+                ], 
+                "soft_file": {
+                  "win": "python*.exe", 
+                  "linux": "python*"
+                }, 
+                "version": "2.7.13", 
+                "soft_file_from_host_os": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  2, 
+                  7, 
+                  13
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "full_path": "/usr/bin/python2"
+              }, 
+              "setup": {
+                "version_split": [
+                  2, 
+                  7, 
+                  13
+                ], 
+                "target_os_bits": "64", 
+                "version": "2.7.13", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "python", 
+              "soft_uoa": "45d68512df22fde7", 
+              "env": {
+                "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python2", 
+                "CK_ENV_COMPILER_PYTHON": "/usr", 
+                "CK_PYTHON_VER2": "YES", 
+                "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip2", 
+                "CK_PY_RT": "python", 
+                "CK_PY_OBJ_EXT": ".pyc", 
+                "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+                "CK_PYTHON_BIN": "python2", 
+                "CK_PYC": "python", 
+                "CK_PYTHON_PIP_BIN": "pip2"
+              }, 
+              "soft_alias": "compiler.python"
+            }, 
+            "local": "yes"
+          }, 
+          "bazel": {
+            "detected_ver": "0.11.1", 
+            "sort": 40, 
+            "bat": ". /home/anton/CK_REPOS/local/env/732249b2845409b7/env.sh\n", 
+            "ver": "0.11.1", 
+            "name": "Bazel tool", 
+            "tags": "tool,bazel", 
+            "build_dir_name": "bazel", 
+            "uoa": "732249b2845409b7", 
+            "choices": [
+              "732249b2845409b7"
+            ], 
+            "num_entries": 1, 
+            "add_to_path": "no", 
+            "version_from": [
+              0, 
+              9
+            ], 
+            "version_to": [
+              0, 
+              12, 
+              0
+            ], 
+            "package_uoa": "1b43634cc2989a42", 
+            "local": "no", 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "env-msys2": {
+                  "sort": 20, 
+                  "local": "yes", 
+                  "name": "MSYS2 env", 
+                  "only_for_target_os_tags": [
+                    "windows"
+                  ], 
+                  "tags": "env,msys2"
+                }, 
+                "java-compiler": {
+                  "detected_ver": "1.8.0_151", 
+                  "sort": 10, 
+                  "bat": ". /home/anton/CK_REPOS/local/env/252478e92fba2b26/env.sh\n", 
+                  "ver": "1.8.0_151", 
+                  "name": "Java compiler", 
+                  "tags": "compiler,lang-java", 
+                  "build_dir_name": "java", 
+                  "uoa": "252478e92fba2b26", 
+                  "choices": [
+                    "252478e92fba2b26"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "host-os-linux-64", 
+                      "java", 
+                      "lang-java", 
+                      "target-os-linux-64", 
+                      "v1", 
+                      "v1.8", 
+                      "v1.8.0", 
+                      "v1.8.0.151"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "-version > $#filename#$ 2>&1", 
+                        "linux": "-version > $#filename#$ 2>&1"
+                      }, 
+                      "add_to_path": "yes", 
+                      "build_dir_name": "java", 
+                      "full_path": "/usr/bin/javac", 
+                      "skip_path": "yes", 
+                      "only_for_target_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "languages": [
+                        "JAVA"
+                      ], 
+                      "soft_file": {
+                        "win": "javac.exe", 
+                        "linux": "javac"
+                      }, 
+                      "version": "1.8.0_151", 
+                      "soft_file_from_host_os": "yes", 
+                      "add_only_with_version": "yes", 
+                      "version_split": [
+                        1, 
+                        8, 
+                        0, 
+                        151
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\Java\\jdk1.8.0_77\\bin\\javac.exe", 
+                        "linux": "/usr/bin/javac"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_COMPILER_JAVA"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        1, 
+                        8, 
+                        0, 
+                        151
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "1.8.0_151", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "java compiler", 
+                    "soft_uoa": "0129a3b82235cbc0", 
+                    "env": {
+                      "CK_FLAG_PREFIX_INCLUDE": "-classpath ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_OBJ_EXT": ".class", 
+                      "CK_ENV_COMPILER_JAVA": "/usr", 
+                      "CK_ENV_COMPILER_JAVA_BIN": "/usr/bin", 
+                      "CK_JAVAC": "javac", 
+                      "JAVA_HOME": "/usr", 
+                      "CK_JAVA_RT": "java -classpath ."
+                    }, 
+                    "soft_alias": "compiler.java"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "bazel", 
+                "channel-stable", 
+                "host-os-linux-64", 
+                "target-os-linux-64", 
+                "tool", 
+                "v0", 
+                "v0.11", 
+                "v0.11.1"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "use_git_revision": "no", 
+                "used_package_uid": "1b43634cc2989a42", 
+                "used_package_uoa": "tool-bazel-0.11.1-linux", 
+                "soft_version_cmd": {
+                  "win": "version > $#filename#$ 2>&1", 
+                  "linux": "version > $#filename#$ 2>&1"
+                }, 
+                "build_dir_name": "bazel", 
+                "skip_path": "yes", 
+                "check_that_exists": "yes", 
+                "add_to_path": "yes", 
+                "soft_path_example": {
+                  "linux": "/usr/bin/bazel"
+                }, 
+                "version": "0.11.1", 
+                "soft_file_from_host_os": "yes", 
+                "full_path": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install/bin/bazel", 
+                "extra_dir": "", 
+                "version_split": [
+                  0, 
+                  11, 
+                  1
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 4
+                }, 
+                "install_env": {
+                  "BAZEL_PATCH1": "aarch64.patch", 
+                  "BAZEL_PATCH3": "javac-max-heap-500mb.patch", 
+                  "BAZEL_PATCH2": "aarch64-is-64bit.patch", 
+                  "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "8", 
+                  "BAZEL_PATCH4": "non-64bit-unix-warning.patch", 
+                  "BAZEL_ZIP": "bazel-0.11.1-dist.zip", 
+                  "CK_TARGET_CPU_BITS": "64", 
+                  "CK_TARGET_OS_ID": "linux", 
+                  "BAZEL_URL": "https://github.com/bazelbuild/bazel/releases/download/0.11.1/bazel-0.11.1-dist.zip", 
+                  "PACKAGE_VERSION": "0.11.1", 
+                  "CK_HOST_OS_ID": "linux"
+                }, 
+                "soft_file": {
+                  "win": "bazel.exe", 
+                  "linux": "bazel"
+                }, 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_TOOL_BAZEL"
+              }, 
+              "setup": {
+                "deps_java-compiler": "252478e92fba2b26", 
+                "version": "0.11.1", 
+                "version_split": [
+                  0, 
+                  11, 
+                  1
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "bazel", 
+              "package_uoa": "1b43634cc2989a42", 
+              "soft_uoa": "359f7730bd23ec60", 
+              "env": {
+                "CK_ENV_TOOL_BAZEL": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install", 
+                "CK_ENV_TOOL_BAZEL_BIN": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install/bin"
+              }, 
+              "soft_alias": "tool.bazel"
+            }
+          }
+        }, 
+        "tags": [
+          "64bits", 
+          "bazel", 
+          "channel-stable", 
+          "host-os-linux-64", 
+          "lib", 
+          "needs-bazel", 
+          "needs-bazel-0.11.1", 
+          "target-os-linux-64", 
+          "tensorflow", 
+          "tensorflow-cpu", 
+          "v1", 
+          "v1.7", 
+          "v1.7.0", 
+          "vcpu", 
+          "vsrc"
+        ], 
+        "customize": {
+          "git_src_dir": "src", 
+          "used_package_uid": "d443fd4662890719", 
+          "used_package_uoa": "lib-tensorflow-1.7.0-src-cpu", 
+          "soft_file": {
+            "win": "tensorflow/__init__.py", 
+            "linux": "tensorflow/__init__.py"
+          }, 
+          "package_extra_name": " (from sources, cpu)", 
+          "skip_path": "yes", 
+          "version": "1.7", 
+          "check_that_exists": "yes", 
+          "env_prefix": "CK_ENV_LIB_TF", 
+          "extra_dir": "", 
+          "version_split": [
+            1, 
+            7
+          ], 
+          "limit_recursion_dir_search": {
+            "linux": 5
+          }, 
+          "install_env": {
+            "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "8", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TF_NEED_CUDA": "NO", 
+            "CK_TARGET_OS_ID": "linux", 
+            "PACKAGE_SUB_DIR": "src", 
+            "PACKAGE_VERSION": "1.7", 
+            "PACKAGE_GIT_CHECKOUT": "v1.7.0", 
+            "CK_TF_ENABLE_XLA": "NO", 
+            "PACKAGE_URL": "https://github.com/tensorflow/tensorflow", 
+            "PACKAGE_GIT": "YES"
+          }, 
+          "ck_version": 10, 
+          "full_path": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-1.7-linux-64/lib/tensorflow/__init__.py"
+        }, 
+        "setup": {
+          "target_os_uoa": "4258b5fe54828a50", 
+          "version": "1.7", 
+          "deps_python": "fda4f4424b64a253", 
+          "version_split": [
+            1, 
+            7
+          ], 
+          "target_os_bits": "64", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "deps_bazel": "732249b2845409b7"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "d443fd4662890719", 
+        "soft_uoa": "30db354f469bb178", 
+        "env": {
+          "CK_ENV_LIB_TF": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-1.7-linux-64", 
+          "CK_ENV_LIB_TF_LIB": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-1.7-linux-64/lib"
+        }, 
+        "soft_alias": "lib.tensorflow"
+      }, 
+      "choices": [
+        "f995f127e4dd135b"
+      ], 
+      "local": "yes"
+    }, 
+    "lib-tensorflow": {
+      "sort": 50, 
+      "for_run_time": "yes", 
+      "bat": ". /home/anton/CK_REPOS/local/env/a48e99c6f264d049/env.sh\n", 
+      "cus": {
+        "git_src_dir": "src", 
+        "used_package_uid": "a1e54a7a823b4b5f", 
+        "used_package_uoa": "lib-tensorflow-1.7.0-src-cpu-xla", 
+        "install_env": {
+          "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "8", 
+          "CK_HOST_OS_ID": "linux", 
+          "CK_TARGET_CPU_BITS": "64", 
+          "CK_TF_NEED_CUDA": "NO", 
+          "CK_TARGET_OS_ID": "linux", 
+          "PACKAGE_SUB_DIR": "src", 
+          "PACKAGE_VERSION": "1.7", 
+          "PACKAGE_GIT_CHECKOUT": "v1.7.0", 
+          "CK_TF_ENABLE_XLA": "YES", 
+          "PACKAGE_URL": "https://github.com/tensorflow/tensorflow", 
+          "PACKAGE_GIT": "YES"
+        }, 
+        "soft_file": {
+          "win": "tensorflow/__init__.py", 
+          "linux": "tensorflow/__init__.py"
+        }, 
+        "package_extra_name": " (from sources, cpu, xla)", 
+        "skip_path": "yes", 
+        "version": "1.7", 
+        "env_prefix": "CK_ENV_LIB_TF", 
+        "extra_dir": "", 
+        "version_split": [
+          1, 
+          7
+        ], 
+        "limit_recursion_dir_search": {
+          "linux": 5
+        }, 
+        "check_that_exists": "yes", 
+        "ck_version": 10, 
+        "full_path": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-xla-1.7-linux-64/lib/tensorflow/__init__.py"
+      }, 
+      "name": "TensorFlow library", 
+      "tags": "lib,tensorflow", 
+      "num_entries": 1, 
+      "package_uoa": "a1e54a7a823b4b5f", 
+      "uoa": "a48e99c6f264d049", 
+      "no_tags": "tensorflow_cc", 
+      "dict": {
+        "data_name": "TensorFlow library (from sources, cpu, xla)", 
+        "deps": {
+          "python": {
+            "detected_ver": "2.7.13", 
+            "sort": 5, 
+            "bat": ". /home/anton/CK_REPOS/local/env/fda4f4424b64a253/env.sh\n", 
+            "ver": "2.7.13", 
+            "name": "Python interpreter", 
+            "tags": "compiler,python", 
+            "build_dir_name": "python", 
+            "uoa": "fda4f4424b64a253", 
+            "choices": [
+              "9c4f9b484b6a41e8", 
+              "fda4f4424b64a253"
+            ], 
+            "num_entries": 1, 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {}, 
+              "tags": [
+                "64bits", 
+                "compiler", 
+                "host-os-linux-64", 
+                "lang-python", 
+                "python", 
+                "target-os-linux-64", 
+                "v2", 
+                "v2.7", 
+                "v2.7.13"
+              ], 
+              "customize": {
+                "soft_version_cmd": {
+                  "win": "--version > $#filename#$ 2>&1", 
+                  "linux": "--version > $#filename#$ 2>&1"
+                }, 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "build_dir_name": "python", 
+                "env_prefix": "CK_ENV_COMPILER_PYTHON", 
+                "skip_path": "yes", 
+                "only_for_target_os_tags": [
+                  "windows", 
+                  "android", 
+                  "linux"
+                ], 
+                "languages": [
+                  "PYTHON"
+                ], 
+                "soft_file": {
+                  "win": "python*.exe", 
+                  "linux": "python*"
+                }, 
+                "version": "2.7.13", 
+                "soft_file_from_host_os": "yes", 
+                "add_only_with_version": "yes", 
+                "version_split": [
+                  2, 
+                  7, 
+                  13
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 3
+                }, 
+                "check_that_exists": "yes", 
+                "ck_version": 10, 
+                "full_path": "/usr/bin/python2"
+              }, 
+              "setup": {
+                "version_split": [
+                  2, 
+                  7, 
+                  13
+                ], 
+                "target_os_bits": "64", 
+                "version": "2.7.13", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "python", 
+              "soft_uoa": "45d68512df22fde7", 
+              "env": {
+                "CK_ENV_COMPILER_PYTHON_FILE": "/usr/bin/python2", 
+                "CK_ENV_COMPILER_PYTHON": "/usr", 
+                "CK_PYTHON_VER2": "YES", 
+                "CK_PYTHON_PIP_BIN_FULL": "/usr/bin/pip2", 
+                "CK_PY_RT": "python", 
+                "CK_PY_OBJ_EXT": ".pyc", 
+                "CK_ENV_COMPILER_PYTHON_BIN": "/usr/bin", 
+                "CK_PYTHON_BIN": "python2", 
+                "CK_PYC": "python", 
+                "CK_PYTHON_PIP_BIN": "pip2"
+              }, 
+              "soft_alias": "compiler.python"
+            }, 
+            "local": "yes"
+          }, 
+          "bazel": {
+            "detected_ver": "0.11.1", 
+            "sort": 40, 
+            "bat": ". /home/anton/CK_REPOS/local/env/732249b2845409b7/env.sh\n", 
+            "ver": "0.11.1", 
+            "name": "Bazel tool", 
+            "tags": "tool,bazel", 
+            "build_dir_name": "bazel", 
+            "uoa": "732249b2845409b7", 
+            "choices": [
+              "732249b2845409b7"
+            ], 
+            "num_entries": 1, 
+            "add_to_path": "no", 
+            "version_from": [
+              0, 
+              9
+            ], 
+            "version_to": [
+              0, 
+              12
+            ], 
+            "package_uoa": "1b43634cc2989a42", 
+            "local": "no", 
+            "dict": {
+              "env_script": "env.sh", 
+              "deps": {
+                "env-msys2": {
+                  "sort": 20, 
+                  "local": "yes", 
+                  "name": "MSYS2 env", 
+                  "only_for_target_os_tags": [
+                    "windows"
+                  ], 
+                  "tags": "env,msys2"
+                }, 
+                "java-compiler": {
+                  "detected_ver": "1.8.0_151", 
+                  "sort": 10, 
+                  "bat": ". /home/anton/CK_REPOS/local/env/252478e92fba2b26/env.sh\n", 
+                  "ver": "1.8.0_151", 
+                  "name": "Java compiler", 
+                  "tags": "compiler,lang-java", 
+                  "build_dir_name": "java", 
+                  "uoa": "252478e92fba2b26", 
+                  "choices": [
+                    "252478e92fba2b26"
+                  ], 
+                  "num_entries": 1, 
+                  "dict": {
+                    "env_script": "env.sh", 
+                    "deps": {}, 
+                    "tags": [
+                      "64bits", 
+                      "compiler", 
+                      "host-os-linux-64", 
+                      "java", 
+                      "lang-java", 
+                      "target-os-linux-64", 
+                      "v1", 
+                      "v1.8", 
+                      "v1.8.0", 
+                      "v1.8.0.151"
+                    ], 
+                    "customize": {
+                      "soft_version_cmd": {
+                        "win": "-version > $#filename#$ 2>&1", 
+                        "linux": "-version > $#filename#$ 2>&1"
+                      }, 
+                      "build_dir_name": "java", 
+                      "full_path": "/usr/bin/javac", 
+                      "skip_path": "yes", 
+                      "only_for_target_os_tags": [
+                        "windows", 
+                        "linux"
+                      ], 
+                      "languages": [
+                        "JAVA"
+                      ], 
+                      "soft_file": {
+                        "win": "javac.exe", 
+                        "linux": "javac"
+                      }, 
+                      "version": "1.8.0_151", 
+                      "add_to_path": "yes", 
+                      "add_only_with_version": "yes", 
+                      "soft_file_from_host_os": "yes", 
+                      "version_split": [
+                        1, 
+                        8, 
+                        0, 
+                        151
+                      ], 
+                      "limit_recursion_dir_search": {
+                        "win": 4, 
+                        "linux": 3
+                      }, 
+                      "check_that_exists": "yes", 
+                      "soft_path_example": {
+                        "win": "C:\\Program Files\\Java\\jdk1.8.0_77\\bin\\javac.exe", 
+                        "linux": "/usr/bin/javac"
+                      }, 
+                      "ck_version": 10, 
+                      "env_prefix": "CK_ENV_COMPILER_JAVA"
+                    }, 
+                    "setup": {
+                      "version_split": [
+                        1, 
+                        8, 
+                        0, 
+                        151
+                      ], 
+                      "target_os_bits": "64", 
+                      "version": "1.8.0_151", 
+                      "host_os_uoa": "4258b5fe54828a50", 
+                      "target_os_uoa": "4258b5fe54828a50"
+                    }, 
+                    "data_name": "java compiler", 
+                    "soft_uoa": "0129a3b82235cbc0", 
+                    "env": {
+                      "CK_FLAG_PREFIX_INCLUDE": "-classpath ", 
+                      "CK_COMPILER_FLAGS_OBLIGATORY": "", 
+                      "CK_OBJ_EXT": ".class", 
+                      "CK_ENV_COMPILER_JAVA": "/usr", 
+                      "CK_ENV_COMPILER_JAVA_BIN": "/usr/bin", 
+                      "CK_JAVAC": "javac", 
+                      "JAVA_HOME": "/usr", 
+                      "CK_JAVA_RT": "java -classpath ."
+                    }, 
+                    "soft_alias": "compiler.java"
+                  }, 
+                  "local": "yes"
+                }
+              }, 
+              "tags": [
+                "64bits", 
+                "bazel", 
+                "channel-stable", 
+                "host-os-linux-64", 
+                "target-os-linux-64", 
+                "tool", 
+                "v0", 
+                "v0.11", 
+                "v0.11.1"
+              ], 
+              "customize": {
+                "git_src_dir": "src", 
+                "only_for_host_os_tags": [
+                  "windows", 
+                  "linux"
+                ], 
+                "install_env": {
+                  "BAZEL_PATCH1": "aarch64.patch", 
+                  "BAZEL_PATCH3": "javac-max-heap-500mb.patch", 
+                  "BAZEL_PATCH2": "aarch64-is-64bit.patch", 
+                  "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "8", 
+                  "BAZEL_PATCH4": "non-64bit-unix-warning.patch", 
+                  "BAZEL_ZIP": "bazel-0.11.1-dist.zip", 
+                  "CK_TARGET_CPU_BITS": "64", 
+                  "CK_TARGET_OS_ID": "linux", 
+                  "BAZEL_URL": "https://github.com/bazelbuild/bazel/releases/download/0.11.1/bazel-0.11.1-dist.zip", 
+                  "PACKAGE_VERSION": "0.11.1", 
+                  "CK_HOST_OS_ID": "linux"
+                }, 
+                "use_git_revision": "no", 
+                "used_package_uid": "1b43634cc2989a42", 
+                "used_package_uoa": "tool-bazel-0.11.1-linux", 
+                "soft_version_cmd": {
+                  "win": "version > $#filename#$ 2>&1", 
+                  "linux": "version > $#filename#$ 2>&1"
+                }, 
+                "build_dir_name": "bazel", 
+                "skip_path": "yes", 
+                "soft_file_from_host_os": "yes", 
+                "soft_file": {
+                  "win": "bazel.exe", 
+                  "linux": "bazel"
+                }, 
+                "version": "0.11.1", 
+                "add_to_path": "yes", 
+                "full_path": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install/bin/bazel", 
+                "extra_dir": "", 
+                "version_split": [
+                  0, 
+                  11, 
+                  1
+                ], 
+                "limit_recursion_dir_search": {
+                  "win": 4, 
+                  "linux": 4
+                }, 
+                "check_that_exists": "yes", 
+                "soft_path_example": {
+                  "linux": "/usr/bin/bazel"
+                }, 
+                "ck_version": 10, 
+                "env_prefix": "CK_ENV_TOOL_BAZEL"
+              }, 
+              "setup": {
+                "deps_java-compiler": "252478e92fba2b26", 
+                "version": "0.11.1", 
+                "version_split": [
+                  0, 
+                  11, 
+                  1
+                ], 
+                "target_os_bits": "64", 
+                "host_os_uoa": "4258b5fe54828a50", 
+                "target_os_uoa": "4258b5fe54828a50"
+              }, 
+              "data_name": "bazel", 
+              "package_uoa": "1b43634cc2989a42", 
+              "soft_uoa": "359f7730bd23ec60", 
+              "env": {
+                "CK_ENV_TOOL_BAZEL": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install", 
+                "CK_ENV_TOOL_BAZEL_BIN": "/home/anton/CK_TOOLS/tool-bazel-0.11.1-linux-64/install/bin"
+              }, 
+              "soft_alias": "tool.bazel"
+            }
+          }
+        }, 
+        "tags": [
+          "64bits", 
+          "bazel", 
+          "channel-stable", 
+          "host-os-linux-64", 
+          "lib", 
+          "needs-bazel", 
+          "needs-bazel-0.11.1", 
+          "target-os-linux-64", 
+          "tensorflow", 
+          "tensorflow-cpu", 
+          "v1", 
+          "v1.7", 
+          "v1.7.0", 
+          "vcpu", 
+          "vsrc", 
+          "vxla"
+        ], 
+        "customize": {
+          "git_src_dir": "src", 
+          "used_package_uid": "a1e54a7a823b4b5f", 
+          "used_package_uoa": "lib-tensorflow-1.7.0-src-cpu-xla", 
+          "install_env": {
+            "CK_HOST_CPU_NUMBER_OF_PROCESSORS": "8", 
+            "CK_HOST_OS_ID": "linux", 
+            "CK_TARGET_CPU_BITS": "64", 
+            "CK_TF_NEED_CUDA": "NO", 
+            "CK_TARGET_OS_ID": "linux", 
+            "PACKAGE_SUB_DIR": "src", 
+            "PACKAGE_VERSION": "1.7", 
+            "PACKAGE_GIT_CHECKOUT": "v1.7.0", 
+            "CK_TF_ENABLE_XLA": "YES", 
+            "PACKAGE_URL": "https://github.com/tensorflow/tensorflow", 
+            "PACKAGE_GIT": "YES"
+          }, 
+          "soft_file": {
+            "win": "tensorflow/__init__.py", 
+            "linux": "tensorflow/__init__.py"
+          }, 
+          "package_extra_name": " (from sources, cpu, xla)", 
+          "skip_path": "yes", 
+          "version": "1.7", 
+          "env_prefix": "CK_ENV_LIB_TF", 
+          "extra_dir": "", 
+          "version_split": [
+            1, 
+            7
+          ], 
+          "limit_recursion_dir_search": {
+            "linux": 5
+          }, 
+          "check_that_exists": "yes", 
+          "ck_version": 10, 
+          "full_path": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-xla-1.7-linux-64/lib/tensorflow/__init__.py"
+        }, 
+        "setup": {
+          "target_os_uoa": "4258b5fe54828a50", 
+          "version": "1.7", 
+          "deps_python": "fda4f4424b64a253", 
+          "version_split": [
+            1, 
+            7
+          ], 
+          "target_os_bits": "64", 
+          "host_os_uoa": "4258b5fe54828a50", 
+          "deps_bazel": "732249b2845409b7"
+        }, 
+        "env_script": "env.sh", 
+        "package_uoa": "a1e54a7a823b4b5f", 
+        "soft_uoa": "30db354f469bb178", 
+        "env": {
+          "CK_ENV_LIB_TF": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-xla-1.7-linux-64", 
+          "CK_ENV_LIB_TF_LIB": "/home/anton/CK_TOOLS/lib-tensorflow-src-cpu-xla-1.7-linux-64/lib"
+        }, 
+        "soft_alias": "lib.tensorflow"
+      }, 
+      "choices": [
+        "a48e99c6f264d049"
+      ], 
+      "local": "yes", 
+      "ver": "1.7"
+    }
+  }, 
+  "no_compiler_description": "yes", 
+  "choices_desc": {}, 
+  "speed": "no"
+}
