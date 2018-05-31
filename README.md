@@ -4,13 +4,13 @@ This repository contains raw experimental results in [the CK format](https://git
 for the [image classification workflow](https://github.com/dividiti/ck-request-asplos18-mobilenets-armcl-opencl)
 from the [ReQuEST tournament at ASPLOS'18](http://cknowledge.org/request-cfp-asplos2018.html) 
 on reproducible SW/HW co-design of deep learning (speed, accuracy, energy, costs).
-You can see at least some of them in the [live ReQuEST scoreboard](http://cKnowledge.org/request-results).
+The [live ReQuEST scoreboard](http://cKnowledge.org/request-results) shows a subset of these results.
 
 ## Citations
 
-* [ACM paper DOI](https://doi.org/10.1145/3229762.3229767)
-* [ACM artifact DOI](https://doi.org/10.1145/3229773)
-* [Zenodo artifact DOI (previous version)](https://doi.org/10.5281/zenodo.1203659)
+* [ACM paper](https://doi.org/10.1145/3229762.3229767)
+* [ACM artifact](https://doi.org/10.1145/3229773)
+* [Zenodo artifact (previous version)](https://doi.org/10.5281/zenodo.1203659)
 
 * [arXiv ReQuEST intro](https://arxiv.org/abs/1801.06378)
 
@@ -69,7 +69,7 @@ of the related CK workflow.
 $ ck dashboard request.asplos18 --results=ck-request-asplos18-results-mobilenets-armcl-opencl
 ```
 
-### View results in the live scoreboard
+### See the live scoreboard
 
 [Link](http://cKnowledge.org/request-results)
 
