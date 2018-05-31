@@ -6,13 +6,13 @@ from the [ReQuEST tournament at ASPLOS'18](http://cknowledge.org/request-cfp-asp
 on reproducible SW/HW co-design of deep learning (speed, accuracy, energy, costs).
 The [live ReQuEST scoreboard](http://cKnowledge.org/request-results) shows a subset of these results.
 
-## Citations
+## References
 
 * [ACM paper](https://doi.org/10.1145/3229762.3229767)
 * [ACM artifact](https://doi.org/10.1145/3229773)
 * [Zenodo artifact (previous version)](https://doi.org/10.5281/zenodo.1203659)
 
-* [arXiv ReQuEST intro](https://arxiv.org/abs/1801.06378)
+* [arXiv ReQuEST goals](https://arxiv.org/abs/1801.06378)
 
 ## Installation
 
